@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "��#\u0000 \u0000b\u0000a\u0000c\u0000k\u0000e\u0000n\u0000d\u0000\r\u0000 \u0000",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/RaviAhir1211/backend/issues"
   },
-  "homepage": "https://github.com/RaviAhir1211/backend#readme"
+  "homepage": "https://github.com/RaviAhir1211/backend#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
 }
